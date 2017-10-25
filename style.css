@@ -1,8 +1,36 @@
+:root{
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
 body,html {
   padding: 0;
   margin: 0;
 }
 body{
   background-color: #15141d;
-  color:#fff;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  font-family: "helvetica neue", sans-serif;
+}
+.h1{
+  color: #a9ac04;
+}
+.opt{
+  display: inline-block;
+}
+input{
+  width: 100px;
+}
+.options{
+  margin-bottom: 50px;
+}
+#mainImg{
+  width: 50%;
+  height: 50%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
 }
